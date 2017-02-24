@@ -13,6 +13,7 @@
 		5A2F33BD1E5D9CCE00691B08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F33BB1E5D9CCE00691B08 /* Main.storyboard */; };
 		5A2F33BF1E5D9CCE00691B08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F33BE1E5D9CCE00691B08 /* Assets.xcassets */; };
 		5A2F33C21E5D9CCE00691B08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F33C01E5D9CCE00691B08 /* LaunchScreen.storyboard */; };
+		5AAD40871E5FF8BB0043D6AB /* TextScrollShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAD40861E5FF8BB0043D6AB /* TextScrollShowView.m */; };
 		5AB27DA81E5EC31300541227 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB27DA51E5EC31300541227 /* AlertView.m */; };
 		5AB27DA91E5EC31300541227 /* ButtonShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB27DA71E5EC31300541227 /* ButtonShowView.m */; };
 		5AB27DAC1E5EC55900541227 /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB27DAB1E5EC55900541227 /* UIView+SetRect.m */; };
@@ -48,6 +49,8 @@
 		5A2F33BE1E5D9CCE00691B08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A2F33C11E5D9CCE00691B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A2F33C31E5D9CCE00691B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AAD40851E5FF8BB0043D6AB /* TextScrollShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextScrollShowView.h; sourceTree = "<group>"; };
+		5AAD40861E5FF8BB0043D6AB /* TextScrollShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextScrollShowView.m; sourceTree = "<group>"; };
 		5AB27DA41E5EC31300541227 /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
 		5AB27DA51E5EC31300541227 /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
 		5AB27DA61E5EC31300541227 /* ButtonShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonShowView.h; sourceTree = "<group>"; };
@@ -144,6 +147,8 @@
 				5AB27DA51E5EC31300541227 /* AlertView.m */,
 				5AB27DA61E5EC31300541227 /* ButtonShowView.h */,
 				5AB27DA71E5EC31300541227 /* ButtonShowView.m */,
+				5AAD40851E5FF8BB0043D6AB /* TextScrollShowView.h */,
+				5AAD40861E5FF8BB0043D6AB /* TextScrollShowView.m */,
 				5A2F33B51E5D9CCE00691B08 /* AppDelegate.h */,
 				5A2F33B61E5D9CCE00691B08 /* AppDelegate.m */,
 				5A2F33B81E5D9CCE00691B08 /* ViewController.h */,
@@ -323,6 +328,7 @@
 				5AB27DF61E5EC7E100541227 /* TransformationMatrix.cpp in Sources */,
 				5AB27DF51E5EC7E100541227 /* POPVector.mm in Sources */,
 				5AB27DA81E5EC31300541227 /* AlertView.m in Sources */,
+				5AAD40871E5FF8BB0043D6AB /* TextScrollShowView.m in Sources */,
 				5AB27DAF1E5EC56100541227 /* UIFont+Fonts.m in Sources */,
 				5AB27DE61E5EC7E100541227 /* POPAnimation.mm in Sources */,
 				5AB27DF21E5EC7E100541227 /* POPMath.mm in Sources */,
